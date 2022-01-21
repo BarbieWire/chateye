@@ -8,12 +8,12 @@
 - first table structure:
 ```sql
   CREATE TABLE IF NOT EXISTS public.dialogs
-  (
+(
       id integer NOT NULL DEFAULT nextval('dialogs_id_seq'::regclass),
       firstuser character varying COLLATE pg_catalog."default",
       seconduser character varying COLLATE pg_catalog."default",
       CONSTRAINT dialogs_pkey PRIMARY KEY (id)
-  )
+)
 ```
 - second table structure:
 
