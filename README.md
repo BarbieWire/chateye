@@ -1,4 +1,4 @@
-# CHATEYE
+# CHATEYE👁️
 
 **Anonymous telegram bot written on python/aiogram**
 - Free template for usage
