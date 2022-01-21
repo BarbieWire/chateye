@@ -6,7 +6,7 @@
 
 # SQL STRUCTURE
 - first table structure:
-```
+```sql
   CREATE TABLE IF NOT EXISTS public.dialogs
   (
       id integer NOT NULL DEFAULT nextval('dialogs_id_seq'::regclass),
@@ -17,7 +17,7 @@
 ```
 - second table structure:
 
-```
+```sql
   CREATE TABLE IF NOT EXISTS public.queue
 (
     id integer NOT NULL DEFAULT nextval('queue_id_seq'::regclass),
